@@ -1,0 +1,29 @@
+ /*using universal selector helps in selecting everything*/
+ *{
+   /*padding-left,right,top,bottom is set to '0'.similarlly margin*/
+        padding:0;
+   /*the space b/w 2 borders which is holding content is set to '0'*/
+        margin:0;
+        color:white;
+       }
+       #navbar{
+         /*the box height is created with 60px and it's background color is setted to black*/
+        height:60px;
+        background-color: black;
+       }
+       button{
+        background-color:yellow;
+       }
+    /*As logo is id,use # symbol for selector*/
+     #logo{
+        color:yellow;
+        font-size:25px;
+     }
+     /*performing element selector below*/
+     a{
+   /*the right side space of the content is set too '200px' */
+        margin-right:200px;
+  /*text-decoration is set to none as we are not making any underline,overline over the text*/
+        text-decoration: none;
+     } 
+    
