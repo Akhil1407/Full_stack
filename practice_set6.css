@@ -1,0 +1,40 @@
+.navbar{
+   background-color:aquamarine;
+   display:flex;
+/*justify-content makes the element space spreading evenly*/
+   justify-content: space-evenly; 
+/*the height of the navbar is arranged 50px*/
+   height:50px;
+}
+a{
+/*text-decoration removes the underline of links*/
+    text-decoration:none;
+    color:black;
+}
+/*list-style-type:none removes the serial numbers or dots infront of the list items*/
+li{
+    list-style-type: none;
+/*inline-block is used so that margin space can be arranged,if we are not comfort with justify content*/
+    display:inline-block;
+/*right side of the contemt and left side of the content spae is set*/
+    margin-right:150px;
+    margin-left:100px;
+    
+}
+/*use flexbox to center one div inside another div*/
+#outer{
+    background-color:cyan;
+    height:500px;
+    width:500px;
+    /*for using flexbox,use flex*/
+    display:flex;
+    /*justify-content is for setting horizontal-align*/
+    justify-content:center;
+    /*align-item is used for setting vertical-align*/
+    align-items:center;
+}
+#inner{
+    background-color:blanchedalmond;
+    height:100px;
+    width:100px;
+}
