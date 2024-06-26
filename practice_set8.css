@@ -1,0 +1,21 @@
+#rotate{
+    width:200px;
+    height:200px;
+    /*making border-radius to 50% gives circle as output*/
+    border-radius: 50%;
+    /*border-shorthand:width style color*/
+    border:20px solid lightskyblue;
+    /*making top of the border as 3/4th circle*/
+    border-top:20px solid goldenrod;
+    /*animation-shorthand:name duration timefunction delay iteration direction*/
+    animation:spinAnimate 2s ease-in 1s infinite normal;
+}
+/*keyframes is a template as it's not actual animation*/
+@keyframes spinAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
