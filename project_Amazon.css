@@ -1,0 +1,245 @@
+*{
+    margin:0;
+    font-family:arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:black;
+    color:aliceblue;
+    /*display:flex makes all the things to settle in navbar*/
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.amazon-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("logo.jpg");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/*box-2*/
+.color-one{
+    color:chartreuse;
+    font-size:0.85rem;
+    /*making 'deliver to' to move 15px from left side*/
+    margin-left:15px;
+}
+.color-two{
+    color:greenyellow;
+    font-size:1rem;
+    margin-left:3px;
+}
+.add-icon{
+    display:flex;
+    /*making align-items to center refers the content is set exact center in the box*/
+    align-items: center;
+}
+/*box-3*/
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    width:600px;
+    height:40px;
+    border-radius:4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    background-color: blanchedalmond;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+}
+.search-icon{
+    width:45px;
+    /*setting the icons to center*/
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:1.2rem;
+    background-color: yellow;
+    color:black;
+}
+/*box-4*/
+span{
+    font-size:0.7rem;
+}
+.nav-second{
+    font-size:0.85rem;
+    font-weight:700;
+}
+/*box-5*/
+.nav-cart i {
+    font-size:30px;
+
+}
+.nav-cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+/*panel styling*/
+.panel{
+    height:40px;
+    background-color:dimgrey;
+    /*making main container flex arranges all the things in column*/
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.panel-options p {
+    display:inline;
+    color:white;
+    margin-left:15px;
+}
+.panel-options{
+    width:70%;
+    font-size:0.85rem;
+}
+.panel-deals{
+    font-size:0.95rem;
+    font-weight:700;
+}
+/*hero-section*/
+.hero-section{
+    background-image: url("amazon_homepage.jpg");
+    height: 400px;
+    background-size:cover;
+    /*display:flex makes the message onesided*/
+    display: flex;
+    justify-content: center;
+    /*to move the content bottom we make*/
+    align-items: flex-end;
+}
+.hero-message{
+    background-color:white;
+    color:black;
+    height:40px;
+    /*making the message center*/
+    display:flex;
+    /*vertically setted to center*/
+    align-items: center;
+    /*horizontally setted to center*/
+    justify-content: center;
+    font-size:0.85rem;
+    margin-bottom: 25px;
+}
+.hero-message a{
+    color:rgb(127, 193, 255);
+}
+/*shop-section is made display:flex to make all the boxes in same line*/
+.shop-section{
+    display: flex;
+    /*wrap makes to display only fixed number of boxes in a row*/
+    flex-wrap:wrap;
+    /*the space for the boxes,for its left right are leaved evenly.so,use justify-content*/
+    justify-content: space-evenly;
+    background-color:darkgrey;
+}
+.box{
+    height:350px;
+    width:23%;
+    background-color:white;
+    padding:20px 0px 15px;
+    margin-top:15px;
+}
+.box1-img{
+    height:300px;
+    /*to avoid repeating of img in the box we use backgorund-size:cover*/
+    background-size:cover;
+    /*to fix the img exactly in middle of the box.use margin*/
+    margin-top:1rem;
+    margin-bottom:1rem;
+    align-items:center;
+    justify-content: center;
+    
+}
+.box-content{
+    margin-left:10px;
+    margin-right:10px;
+
+}
+.box-content p{
+    color:rgb(255, 127, 219);
+    margin-bottom: 25px;
+    
+}
+.footer{
+    margin-top:15px;
+}
+.foot-panel1{
+    background-color:dimgray;
+    color:white;
+    height:50px;
+    /*making the panel to center*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.7rem;
+}
+.foot-panel2{
+    background-color:darkgrey;
+    color:white;
+    height:300px;
+    display:flex;
+    justify-content: space-evenly;
+ul a{
+    display:block;
+    font-size:0.85rem;margin-top:10px;
+    }
+}
+ul{
+    margin-top:30px;
+}
+.foot-panel3{
+    background-color:dimgray;
+    color:white;
+    border-top:0.5px solid white;
+    height:70px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-image: url("logo.jpg");
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+.foot-panel4{
+    background-color:lightblue;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:80px;
+}
+.pages{
+   font-size: 0.7rem;
+   text-align: center;
+   padding-top:25px;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top:5px;
+}
